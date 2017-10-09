@@ -7,113 +7,248 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hero - Free Bulma template</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
   <link rel="stylesheet" type="text/css" href="alsnuff.css">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
 </head>
 <body>
-  <section class="hero is-primary is-medium header-image">
-    <div class="hero-head">
-      <header class="nav">
-        <div class="container">
-          <div class="nav-left">
-            <a class="nav-item logo" href="../index.html">
-              als nuff!
+  <nav class="navbar is-white">
+    <div class="navbar-brand">
+      <a class="navbar-item logo" href="../index.html">
+        als nuff!
+      </a>
+  
+      <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
+        <span class="icon" style="color: #333;">
+          <i class="fa fa-lg fa-github"></i>
+        </span>
+      </a>
+  
+      <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+        <span class="icon" style="color: #55acee;">
+          <i class="fa fa-lg fa-twitter"></i>
+        </span>
+      </a>
+  
+      <div class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="/documentation/overview/start/">
+            Tourenübersicht
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
+              Deutschland
             </a>
-            <a class="nav-item">
-              <img src="./images/ig.png" alt="Instagram">
+            <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
+              Italien
             </a>
-            <a class="nav-item">
-              <img src="./images/fb.png" alt="Facebook">
+            <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">
+              Österreich
             </a>
-            <a class="nav-item">
-              <img src="./images/tw.png" alt="Twitter">
+            <a class="navbar-item " href="http://bulma.io/documentation/layout/container/">
+              Portugal
             </a>
-          </div>
-          <span class="nav-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-          <div class="nav-right nav-menu">
-            <a class="nav-item is-active">
-              Home
+            <a class="navbar-item " href="http://bulma.io/documentation/form/general/">
+              Schweiz
             </a>
-            <a class="nav-item">
-              Examples
+            <a class="navbar-item " href="http://bulma.io/documentation/elements/box/">
+              Spanien
             </a>
-            <a class="nav-item">
-              Documentation
+            <a class="navbar-item" href="http://bulma.io/documentation/components/breadcrumb/">
+              USA
             </a>
+            
+            <hr class="navbar-divider">
+            <div class="navbar-item">
+              <div>
+                <p class="is-size-6-desktop">
+                  <a href="/versions"><strong class="has-text-info">Alle Gipfel</strong></a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </header>
+        <a class="navbar-item">
+          Unsere Ausrüstung
+        </a>
+        <a class="navbar-item">
+          Über als nuff!
+        </a>
+        <a class="navbar-item">
+          Impressum / Datenschutz
+        </a>
+      </div>
+  
+      <div class="navbar-end">
+        <a class="nav-item">
+          <img src="./images/ig.png" alt="Instagram">
+        </a>
+        <a class="nav-item">
+          <img src="./images/fb.png" alt="Facebook">
+        </a>
+        <a class="nav-item">
+          <img src="./images/tw.png" alt="Twitter">
+        </a>
+      </div>
     </div>
+  </nav>
+
+  <section class="hero is-primary is-medium header-image">
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title is-2">
           <img src="./images/logo.png">
         </h1>
-        <h2 class="subtitle is-5">
+        <h2 class="subtitle is-3">
           Bergwandern für Genießer
         </h2>
       </div>
     </div>
   </section>
-  <div class="hero-cta">
-    <nav class="level">
-      <div class="level-item has-text-centered">
-        <p class="title">Bergpost für Dich! <a class="button is-primary"><span class="icon"><i class="fa fa-download"></i></span><span>Anmelden</span></a></p>
-      </div>
-    </nav>
-  </div>
   <div class="section main">
     <div class="columns">
-      <div class="column is-8 is-offset-2">
+      <div class="column is-9">
         <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Tourensammlung
+            </p>
+            <span class="card-header-icon timestamp">
+              22. April 2017
+            </span>
+          </header>
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://i0.wp.com/alsnuff.de/wp-content/uploads/2017/04/Bachalpsee-im-Sommer.jpg?resize=945%2C633" alt="Image">
+            <figure class="image is-3by2">
+              <img src="https://i0.wp.com/alsnuff.de/wp-content/uploads/2017/04/Bachalpsee-im-Sommer.jpg" alt="Image">
             </figure>
           </div>
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Lieblingsseen in der Schweiz</p>
+                <p class="title is-3">Lieblingsseen in der Schweiz</p>
               </div>
             </div>
-
             <div class="content">
               In der Schweiz gibt es nicht nur saftig grüne Wiesen, hohe Berge und beeindruckende Gletscher, sondern auch mehr als 1500 Seen. Große Seen, auf denen reges Treiben an Schiffen und Booten herrscht wie den Vierwaldstätter See bei Luzern. Kleine idyllische Bergseen […]
-              <br>
-              <small>11:09 PM - 1 Jan 2016</small>
             </div>
           </div>
         </div>
 
         <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Madeira, mittel
+            </p>
+            <span class="card-header-icon timestamp">
+              11. April 2017
+            </span>
+          </header>
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://i0.wp.com/alsnuff.de/wp-content/uploads/2017/04/Bachalpsee-im-Sommer.jpg?resize=945%2C633" alt="Image">
+            <figure class="image is-3by2">
+              <img src="https://i0.wp.com/alsnuff.de/wp-content/uploads/2017/03/madeira-pico-arieiro.jpg" alt="Image">
             </figure>
           </div>
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Lieblingsseen in der Schweiz</p>
+                <p class="title is-3">Madeiras Paradetour – auf dem Höhenweg vom Pico do Arieiro zum Pico Ruivo</p>
               </div>
             </div>
-
             <div class="content">
-              In der Schweiz gibt es nicht nur saftig grüne Wiesen, hohe Berge und beeindruckende Gletscher, sondern auch mehr als 1500 Seen. Große Seen, auf denen reges Treiben an Schiffen und Booten herrscht wie den Vierwaldstätter See bei Luzern. Kleine idyllische Bergseen […]
-              <br>
-              <small>11:09 PM - 1 Jan 2016</small>
+              Madeira – eine liebliche Blumeninsel, auf der der ewige Frühling herrscht. Allen Sissifans ist sie bekannt als Rückzugsort der österreichischen Kaiserin, an dem sie ihre schwere Lungenkrankheit auskurierte. Doch auch ohne Schwindsucht lässt es sich auf dieser wunderbaren Insel gut aushalten. […]
             </div>
           </div>
         </div>
+      </div>
+      <div class="column is-3">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              KOMM MIT UNS ALS NUFF!
+            </p>
+          </header>
+          <div class="card-image" id="mufflons">
+            <figure class="image">
+              <img src="./images/mufflons.png" alt="Mufflons">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content has-text-centered">
+                Wir sind Familie Mufflon und zeigen Dir Bergwanderungen für Genießer im deutschsprachigen Alpenraum, manchmal auch weltweit.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              BERGPOST FÜR DICH!
+            </p>
+          </header>
+          <div class="card-image" id="mufflons">
+            <figure class="image">
+              <img src="./images/bergpost.png" alt="Mufflons">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p>
+                Hol Dir unsere neuesten Gipfel&shy;geschichten per Mail nach Hause. Einfach E-Mail&shy;adresse eingeben, Eintragen klicken und schon wirst Du über neue Artikel benachrichtigt. 
+              </p>
+              
+              <div class="field">
+                <p class="control has-icons-left has-icons-right">
+                  <input class="input" type="email" name="EMAIL" placeholder="Deine E-Mail Adresse" required id="rssEmail">
+                  <span class="icon is-small is-left">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                </p>
+              </div>
+              <div class="field">
+                <p class="control">
+                  <button class="button is-success">
+                    Eintragen
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                INSTAGRAM
+              </p>
+            </header>
+            <div class="card-content has-text-centered">
+              <div class="content">
+                <div id="instafeed"></div>
+                <script type="text/javascript">
+                  jQuery( document ).ready(function() {
+                    var feed = new Instafeed({
+                      get: 'user',
+                      userId: '3658048675',
+                      limit: 6,
+                      clientId: '89fcba5a37394ef1808805f4b169564a',
+                      accessToken: '3658048675.1677ed0.3685d5651ff14073a323f74e1d34b872'
+                    });
+                    feed.run();
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </div>
+
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
@@ -130,6 +265,7 @@
       </div>
     </div>
   </footer>
-  <script async type="text/javascript" src="bulma.js"></script>
+  <script async type="text/javascript" src="instafeed.min.js"></script>
+  <script async type="text/javascript" src="burger.js"></script>
 </body>
 </html>
